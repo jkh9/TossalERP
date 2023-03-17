@@ -10,10 +10,10 @@ namespace TossalERP.Library
     {
         Flauta, Saxo, Dulzaina, Clarinete, Oboe,Tuba, Trombon, Trompa,Percu
     }
-    internal class Musico
+    public class Musico
     {
         public string Nombre;
         public Instrumento Instrumento;
-        public int TotalGanado;
+        public int DineroCobrar;
     }
 }

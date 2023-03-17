@@ -25,5 +25,27 @@ namespace TossalERP
         {
             InitializeComponent();
         }
+
+        private void ButtonCrearActo_Click(object sender, RoutedEventArgs e)
+        {
+            CreacionActo form = new CreacionActo();
+            form.ShowDialog();
+        }
+
+        private void ButtonCrearMusico_Click(object sender, RoutedEventArgs e)
+        {
+            CreacionMusico form = new CreacionMusico();
+            form.ShowDialog();
+        }
+
+        private void ButtonVerMusicos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonVerActos_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
