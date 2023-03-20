@@ -7,4 +7,15 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="capa_datos\" />
+    <Folder Include="capa_entidades\" />
+    <Folder Include="capa_presentacion\" />
+    <Folder Include="capa_negocio\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="App.xaml" />
+  </ItemGroup>
+
 </Project>
